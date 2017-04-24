@@ -1,0 +1,16 @@
+{
+  "repo": "z-classic/zclassic",
+  "name": "Bot.io (Main)",
+  "handle": "botio",
+  "script_timeout": 3600,
+  "private_dir": "./private",
+  "public_dir": "./public",
+  "port": 9001,
+  "use_queue": true,
+  "host": "aayanl.tech",
+  "whitelist": [
+    "heyrhett",
+    "joshuayabut",
+    "aayanl"
+  ]
+}
