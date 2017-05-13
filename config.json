@@ -7,7 +7,7 @@
   "public_dir": "./public",
   "port": 9001,
   "use_queue": true,
-  "host": "aayanl.tech",
+  "host": "198.199.66.83",
   "whitelist": [
     "heyrhett",
     "joshuayabut",

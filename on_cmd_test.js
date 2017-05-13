@@ -14,7 +14,7 @@ shell.echo("Building: " + a);
 
 shell.config.silent = true;
 
-shell.exec('./zcutil/build.sh -j 2');
+shell.exec('./zcutil/build.sh -j$(nproc)');
 var b = now();
 
 shell.echo("Done building: " + (b - a) / 1000 + " seconds");
