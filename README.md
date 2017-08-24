@@ -1,4 +1,4 @@
-# botio-zclassic
-Botio files for zclassic
+# botio-zencash
+Botio files for zencash
 
 botio: https://github.com/aayanl/botio
