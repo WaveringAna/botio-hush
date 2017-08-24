@@ -1,6 +1,7 @@
-{ "name": "botio-scripts"
-, "version": "0.0.1"
-, "dependencies": {
-    "shelljs": "latest"
+{ "name": "botio-scripts",
+ "version": "0.0.1",
+ "dependencies": {
+     "shelljs": "latest",
+     "performance-now": "latest"
   }
 }
