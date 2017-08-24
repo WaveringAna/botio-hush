@@ -12,8 +12,6 @@ botio.message('Your Botio installation works! View full output for the list of f
 var a = now();
 shell.echo("Building: " + a);
 
-shell.config.silent = true;
-
 shell.exec('./zcutil/build.sh -j$(nproc)');
 var b = now();
 
@@ -21,7 +19,7 @@ shell.echo("Done building: " + (b - a) / 1000 + " seconds");
 shell.echo("Testing");
 
 var c = now();
-shell.exec('./src/zcash-gtest', {silent: false});
+shell.exec('./src/zen-gtest', {silent: false});
 var d = now();
 
 shell.echo("Done Testing: " + (d - c) / 1000 + " seconds");
