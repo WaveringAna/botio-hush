@@ -1,5 +1,5 @@
 {
-  "repo": "z-classic/zclassic",
+  "repo": "myhush/hush",
   "name": "Bot.io (Main)",
   "handle": "botio",
   "script_timeout": 3600,
@@ -9,8 +9,6 @@
   "use_queue": true,
   "host": "198.199.66.83",
   "whitelist": [
-    "heyrhett",
-    "joshuayabut",
-    "aayanl"
+    ""
   ]
 }
