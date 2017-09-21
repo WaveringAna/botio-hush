@@ -1,4 +1,4 @@
-# botio-zencash
-Botio files for zencash
+# botio-hush
+Botio files for hush
 
-botio: https://github.com/aayanl/botio
+botio: https://github.com/zencashofficial/botio
