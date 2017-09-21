@@ -10,7 +10,7 @@ ls().forEach(function(file) {
 botio.message('#### Hello world');
 botio.message('Your Botio installation works! View full output for the list of files in this repo');*/
 var a = now();
-shell.echo("Building: " + a);
+shell.echo("Building");
 
 shell.exec('./zcutil/build.sh -j$(nproc)');
 var b = now();
@@ -19,7 +19,7 @@ shell.echo("Done building: " + (b - a) / 1000 + " seconds");
 shell.echo("Testing");
 
 var c = now();
-shell.exec('./src/zen-gtest', {silent: false});
+shell.exec('./src/hush-gtest');
 var d = now();
 
 shell.echo("Done Testing: " + (d - c) / 1000 + " seconds");
